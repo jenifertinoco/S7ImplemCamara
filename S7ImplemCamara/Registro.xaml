@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="S7ImplemCamara.Registro">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="REGISTRO"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Entry x:Name="txtNombre" Placeholder="Nombre"/>
+            <Entry x:Name="txtUsuario" Placeholder="usuario"/>
+            <Entry x:Name="txtContrasena" Placeholder="contrasena" IsPassword="True"/>
+
+            <Button x:Name="btnRegistro" Text="Registar" Clicked="btnRegistro_Clicked"/>
+            
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
